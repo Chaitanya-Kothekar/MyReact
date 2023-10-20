@@ -2222,14 +2222,9 @@ const Body = () => {
           <diV className="body">
             <div className="search">search</div>
             <div className="res-container">
-             <RestaurantCard resData = {reslist[0]}/> 
-             <RestaurantCard resData = {reslist[1]}/> 
-             <RestaurantCard resData = {reslist[2]}/> 
-             <RestaurantCard resData = {reslist[3]}/> 
-             <RestaurantCard resData = {reslist[4]}/> 
-             <RestaurantCard resData = {reslist[5]}/> 
-             <RestaurantCard resData = {reslist[6]}/> 
-             
+            {
+              reslist.map(f => <RestaurantCard resData = {f}/>)
+            }
             </div>
           </diV>
     );
