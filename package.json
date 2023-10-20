@@ -1,0 +1,29 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "created by chaitanya",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaitanya-Kothekar/MyReact.git"
+  },
+  "author": "chaitanya kothekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaitanya-Kothekar/MyReact/issues"
+  },
+  "homepage": "https://github.com/Chaitanya-Kothekar/MyReact#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  }
+}
