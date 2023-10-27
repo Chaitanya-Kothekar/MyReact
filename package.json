@@ -1,5 +1,5 @@
 {
-  "name": "namastereact",
+  "name": "mca_notes",
   "version": "1.0.0",
   "description": "created by chaitanya",
   "scripts": {
@@ -25,5 +25,6 @@
   "devDependencies": {
     "parcel": "^2.10.0",
     "process": "^0.11.10"
-  }
+  },
+  "main": "index.js"
 }
