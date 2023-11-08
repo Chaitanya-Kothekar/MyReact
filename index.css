@@ -74,3 +74,6 @@
     color: white;
     cursor: pointer;
  }
+ .nav-items{
+    text-decoration: none;
+}
